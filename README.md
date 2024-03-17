@@ -1,33 +1,6 @@
 # Prefix Tuning
-## Files:
-    .
-    ├── gpt2                          # Code for GPT2 style autoregressive LM
-    │   ├── train_e2e.py              # high-level scripts to train.
-    │   ├── train_control.py          # code that implements prefix-tuning.
-    │   ├── trainer_prefix.py         # trainer code for the training loop. 
-    │   ├── run_language_modeling.py  # training code (contains data loading, model loading, and calls trainer)
-    │   ├── gen.py                    # high-level scripts to decode. 
-    │   └── run_generation.py         # decoding code. 
-    │
-    ├── seq2seq                       # Code for encoder-decoder architecture
-    │   ├── train_bart.py             # high-level scripts to train.
-    │   ├── prefixTuning.py           # code that implements prefix-tuning.
-    │   ├── finetune.py               # training code (contains data loading, model loading, and calls trainer)   
-    │   ├── lightning_base.py         # helper code
-    │   ├── utils.py                  # helper code
-    │   └── callbacks.py              # helper code
-    └── ...
-
-
-To run the code for GPT2 style autoregressive LM, the code is in ``gpt2/``. This corresponds to the table-to-text experiments in the paper. 
-
-To run the code for encoder-decoder architecture like BART,  the code is in ``seq2seq``. This corresponds to the summarization experiments in the paper. 
-
-The two primary scripts I used to run my codes are `` gpt2/train_e2e.py`` (for table-to-text) and ``seq2seq/train_bart.py``(for summarization).
-they are set to default of good hyperparameters, and can be used to tune hyperparameter :) 
-
------------------------------------------------------
-## Setup:
+- **Model training Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1C2818h7KnjNv4R1sabe14_AYL7lWhmu6?usp=sharing)
+- **Evaluation Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1C2818h7KnjNv4R1sabe14_AYL7lWhmu6?usp=sharing)
 
 ``cd transformer; pip install -e .``
 
