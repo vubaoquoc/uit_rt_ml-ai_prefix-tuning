@@ -1,6 +1,6 @@
 # Prefix Tuning
-- **Model training Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1UbPCspeZQ9zZ6uAIC5-3gN_rApiN4c1C/view?usp=sharing)
-- **Evaluation Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1M_zZke_MRaaeDS_UzEv4Do282i0rpiKv/view?usp=sharing)
+- **Model training Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UbPCspeZQ9zZ6uAIC5-3gN_rApiN4c1C)
+- **Evaluation Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1M_zZke_MRaaeDS_UzEv4Do282i0rpiKv)
 
 ``cd transformer; pip install -e .``
 
