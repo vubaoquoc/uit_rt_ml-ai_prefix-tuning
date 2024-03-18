@@ -12,7 +12,7 @@ Prefix-tuning is a method proposed for efficient and effective fine-tuning of la
 
 The repository structure is as follows:
 
-- ``: Contains the WebNLG dataset for training and evaluation.
+- `data/webnlg_challenge_2017`: Contains the WebNLG dataset for training and evaluation.
 - `demo-notebook/`: Source code for fine-tuning the GPT-2 model using prefix-tuning.
 - `gpt2/` and `transformers/`: Code and resources referenced from Transformer, GPT-2, and Prefix-tuning repositories.
 - `gpt2/webnlg_models/`: Model tuning (1 epoch, 5 epochs and 3, 5 prefix length)
