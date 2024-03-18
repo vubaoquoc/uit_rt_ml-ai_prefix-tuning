@@ -1,6 +1,24 @@
-# Prefix Tuning
+# Prefix-Tuning for GPT-2 Model Tuning with WebNLG Data
 - **Model training Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1aAkIFPGuwlTbpuW1XpVH4NipG6guQ7mj/view?usp=sharing)
 - **Evaluation Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1aAkIFPGuwlTbpuW1XpVH4NipG6guQ7mj/view?usp=sharing)
+
+This repository serves as a demonstration of utilizing prefix-tuning to fine-tune GPT-2 models using WebNLG data. The project is developed as part of the coursework for the "Machine Learning and Artificial Intelligence" course at the University of Information Technology, Vietnam National University Ho Chi Minh City.
+
+## Overview
+
+Prefix-tuning is a method proposed for efficient and effective fine-tuning of large language models like GPT-2. It involves adding task-specific prefixes to the input during fine-tuning, which guides the model to produce more contextually relevant outputs for the given task. In this project, we leverage prefix-tuning to fine-tune a GPT-2 model on the WebNLG dataset.
+
+## Repository Structure
+
+The repository structure is as follows:
+
+- ``: Contains the WebNLG dataset for training and evaluation.
+- `demo-notebook/`: Source code for fine-tuning the GPT-2 model using prefix-tuning.
+- `gpt2/` and `transformers/`: Code and resources referenced from Transformer, GPT-2, and Prefix-tuning repositories.
+- `gpt2/webnlg_models/`: Model tuning (1 epoch, 5 epochs and 3, 5 prefix length)
+- `output/contrast_LM/transformers/examples/text-generation/`: Output prediction and evaluation
+
+## Set up env python < 3.7
 
 ``cd transformer; pip install -e .``
 
@@ -53,15 +71,9 @@ python train_bart.py --mode xsum --do_train no --prefix_model_path {checkpoint_p
 
 -----------------------------------------------------
 
-For details of the methods and results, please refer to our paper. 
+## References
 
-```bibtex
-@misc{li2021prefixtuning,
-      title={Prefix-Tuning: Optimizing Continuous Prompts for Generation}, 
-      author={Xiang Lisa Li and Percy Liang},
-      year={2021},
-      eprint={2101.00190},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
+- [Transformer](https://github.com/huggingface/transformers)
+- [GPT-2](https://github.com/openai/gpt-2)
+- [Prefix-tuning](https://github.com/microsoft/PrefixTuning)
+
