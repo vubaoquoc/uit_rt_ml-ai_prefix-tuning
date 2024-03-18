@@ -1,6 +1,6 @@
 # Prefix Tuning
-- **Model training Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UbPCspeZQ9zZ6uAIC5-3gN_rApiN4c1C)
-- **Evaluation Colab Demo**. <a href="https://colab.research.google.com/github/vubaoquoc/uit_rt_ml-ai_prefix-tuning/blob/main/PrefixTuning_GPT2_Eval_5epochs_5prefix_Final.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- **Model training Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1aAkIFPGuwlTbpuW1XpVH4NipG6guQ7mj/view?usp=sharing)
+- **Evaluation Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1aAkIFPGuwlTbpuW1XpVH4NipG6guQ7mj/view?usp=sharing)
 
 ``cd transformer; pip install -e .``
 
