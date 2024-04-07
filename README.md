@@ -1,6 +1,6 @@
 # Prefix-Tuning for GPT-2 Model Tuning with WebNLG Data
-- **Model training Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1aAkIFPGuwlTbpuW1XpVH4NipG6guQ7mj/view?usp=sharing)
-- **Evaluation Colab Demo**. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1aAkIFPGuwlTbpuW1XpVH4NipG6guQ7mj/view?usp=sharing)
+- **[Model training Colab Demo](./demo-notebook/PrefixTuning_GPT2_Training_5epochs_5prefix_Final.ipynb)**.
+- **[Evaluation Colab Demo](./demo-notebook/PrefixTuning_GPT2_Eval_5epochs_5prefix_v1_Final.ipynb)**.
 
 This repository serves as a demonstration of utilizing prefix-tuning to fine-tune GPT-2 models using WebNLG data. The project is developed as part of the coursework for the "Machine Learning and Artificial Intelligence" course at the University of Information Technology, Vietnam National University Ho Chi Minh City.
 
